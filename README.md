@@ -1,40 +1,3 @@
-# MLinMotion
-Step-by-Step Installation
-Step 1: Clone the Repository
-First, clone the simple-HRNet repository from GitHub using the following command:
-
-
-git clone https://github.com/username/simple-HRNet.git
-cd simple-HRNet
-Replace https://github.com/username/simple-HRNet.git with the actual URL of the simple-HRNet repository.
-
-Step 2: Create a Virtual Environment (Optional but Recommended)
-It's a good practice to create a virtual environment for your project. This keeps your dependencies organized and avoids conflicts with other projects. You can use venv or conda for this. Here's how to do it with venv:
-
-
-python -m venv hrnet-env
-source hrnet-env/bin/activate  # On Windows use `hrnet-env\Scripts\activate`
-
-Step 3: Install Dependencies
-Inside the repository, install the required dependencies:
-
-
-pip install -r requirements.txt
-This command will install all the necessary Python packages listed in requirements.txt.
-
-Step 4: Additional Dependencies
-Depending on your use case, you may need to install additional dependencies. For example, if you're planning to use real-time webcam functionalities, you might need to install opencv-python:
-
-
-pip install opencv-python
-Step 5: Verify Installation
-To verify that simple-HRNet has been installed correctly, you can run a quick test by executing one of the sample scripts provided in the repository.
-
-
-python scripts/run_simple_hrnet.py
-Replace run_simple_hrnet.py with the appropriate script name. This should run the script and output the results, indicating a successful installation.
-
-
 ## VS CODE INSTALLATION
 1) Downloading Visual Studio Code (VS code) for Window system and Mac Os system through the link: https://code.visualstudio.com/Download
 For the Window system:
@@ -97,4 +60,42 @@ Here are a few links to help you get started!
 2. VS code Installation (mac): https://youtu.be/2RoWZXcbPjw?si=KXWiKNiNIteZqWhv
 3. VS code quick how to and tips: https://youtu.be/B-s71n0dHUk?si=xRvZMZ_MNf9NE90z
 4. Git installation for VS code: https://youtu.be/i_23KUAEtUM?si=9lgx4DuIuaKfNiq3 
+
+# MLinMotion
+Step-by-Step Installation
+Step 1: Clone the Repository
+First, clone the simple-HRNet repository from GitHub using the following command:
+
+
+git clone https://github.com/username/simple-HRNet.git
+cd simple-HRNet
+Replace https://github.com/username/simple-HRNet.git with the actual URL of the simple-HRNet repository.
+
+Step 2: Create a Virtual Environment (Optional but Recommended)
+It's a good practice to create a virtual environment for your project. This keeps your dependencies organized and avoids conflicts with other projects. You can use venv or conda for this. Here's how to do it with venv:
+
+
+python -m venv hrnet-env
+source hrnet-env/bin/activate  # On Windows use `hrnet-env\Scripts\activate`
+
+Step 3: Install Dependencies
+Inside the repository, install the required dependencies:
+
+
+pip install -r requirements.txt
+This command will install all the necessary Python packages listed in requirements.txt.
+
+Step 4: Additional Dependencies
+Depending on your use case, you may need to install additional dependencies. For example, if you're planning to use real-time webcam functionalities, you might need to install opencv-python:
+
+
+pip install opencv-python
+Step 5: Verify Installation
+To verify that simple-HRNet has been installed correctly, you can run a quick test by executing one of the sample scripts provided in the repository.
+
+
+python scripts/run_simple_hrnet.py
+Replace run_simple_hrnet.py with the appropriate script name. This should run the script and output the results, indicating a successful installation.
+
+
 
